@@ -1,0 +1,23 @@
+form {
+  display: grid;
+  gap: 20px;
+  width: 300px;
+  padding-left: 20px;
+}
+
+label {
+  font-size: 18px;
+}
+
+input {
+  font-size: 18px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.form-field {
+  display: grid;
+  gap: 1px;
+}

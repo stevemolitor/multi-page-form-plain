@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-function App() {
-  return 'Hello'
-}
+import './styles.css'
 
-ReactDOM.render(<App />, document.getElementById('root'))
+import EmailPasswordForm from './components/EmailPasswordForm'
+
+ReactDOM.render(<EmailPasswordForm />, document.getElementById('root'))
